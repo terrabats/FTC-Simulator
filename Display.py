@@ -16,7 +16,7 @@ done = False
 #Font/Image init
 comic = pygame.font.SysFont('Comic Sans MS', 30)
 comicS = pygame.font.SysFont('Comic Sans MS', 15)
-field = pygame.image.load('C:/Users/visha/Pictures/field.png').convert()
+field = pygame.image.load('field.png').convert()
 field = pygame.transform.scale(field, (width, height))
 
 #Starting positions (inches)
